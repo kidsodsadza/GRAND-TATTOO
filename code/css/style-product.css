@@ -1,0 +1,225 @@
+#warper-pr{
+	width: 100%;
+	height: 950px;
+	background: #333;
+}
+.container-pr{
+	width: 960px;
+	height: 900px;
+	margin: 0 auto;
+	padding-top: 20px;
+	box-sizing: border-box;
+	background: #fff;
+}
+#hand-pr{
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	font-family: 'Bebas Neue Regular';
+	font-size: 42px;
+	color: #000;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.Product-box1{
+	width: 700px;
+	height: 350px;
+	background-image: url('../img/1455972_.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin:0 auto;
+}
+.Product-box2{
+	width: 340px;
+	height: 200px;
+	background-image: url('../img/1502156_.jpg');
+	background-repeat: no-repeat;
+	background-position: 30% 30%;
+	background-size: cover;
+	margin-top: 20px;
+	margin-left: 130px;
+	float: left;
+}
+.Product-box3{
+	width: 340px;
+	height: 200px;
+	background-image: url('../img/jesse_deville.jpg');
+	background-repeat: no-repeat;
+	background-position: 30% 30%;
+	background-size: cover;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+.Product-box4{
+	width: 200px;
+	height: 200px;
+	background-image: url('../img/case.jpg');
+	float: left;
+	margin-top: 20px;
+	margin-left: 130px;
+}
+.Product-box5{
+	width: 200px;
+	height: 200px;
+	background-image: url('../img/case2.jpg');
+	float: left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.Product-box6{
+	width: 200px;
+	height: 200px;
+	background-image: url('../img/case3.jpg');
+	float: left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.hidder-item1{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #b1000e;
+	padding-top: 150px;
+	font-size: 36px;
+	font-family: 'Gotham Rounded Medium';
+	box-sizing: border-box;
+	color:#fff;
+	display: none;
+}
+.hidder-item2{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #b1000e;
+	padding-top: 100px;
+	font-size: 24px;
+	font-family: 'Gotham Rounded Medium';
+	box-sizing: border-box;
+	color:#fff;
+	display: none;
+}
+.hidder-item3{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #b1000e;
+	padding-top: 100px;
+	font-size: 18px;
+	font-family: 'Gotham Rounded Medium';
+	box-sizing: border-box;
+	color:#fff;
+	display: none;
+}
+.Product-box1:hover .hidder-item1{
+	opacity: 0.5;
+	display: block;
+	cursor: pointer;
+	transition: 0.5s ;
+	-webkit-transition: 0.5s ease-in-out ;
+}
+.Product-box2:hover .hidder-item2{
+	opacity: 0.5;
+	display: block;
+	cursor: pointer;
+	transition: 0.5s ;
+	-webkit-transition: 0.5s ease-in-out ;
+}
+.Product-box3:hover .hidder-item2{
+	opacity: 0.5;
+	display: block;
+	cursor: pointer;
+	transition: 0.5s ;
+	-webkit-transition: 0.5s ease-in-out ;
+}
+.Product-box4:hover .hidder-item3{
+	opacity: 0.5;
+	display: block;
+	cursor: pointer;
+	transition: 0.5s ;
+	-webkit-transition: 0.5s ease-in-out ;
+}
+.Product-box5:hover .hidder-item3{
+	opacity: 0.5;
+	display: block;
+	cursor: pointer;
+	transition: 0.5s ;
+	-webkit-transition: 0.5s ease-in-out ;
+}
+.Product-box6:hover .hidder-item3{
+	opacity: 0.5;
+	display: block;
+	cursor: pointer;
+	transition: 0.5s ;
+	-webkit-transition: 0.5s ease-in-out ;
+}
+#warper-pr-show{
+	width: 100%;
+	height: auto;
+	background: #333;
+}
+.container-pr-show{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 20px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.show{
+	padding-top: 20px;
+}
+::-webkit-input-placeholder { 
+    color: #000;
+}
+#movie-name{
+	width: 230px;
+	height: 30px;
+	background: transparent;
+	color: #000;
+	border: 1px solid #b1000e;
+	font-size: 18px;
+	font-family: 'Gotham Rounded Medium';
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+#select-branch{
+	width: 230px;
+	height: 34px;
+	background: transparent;
+	color: #000;
+	border: 1px solid #b1000e;
+	font-size: 18px;
+	font-family: 'Gotham Rounded Medium';
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+#show-data{
+	width: 100%;
+	height: 700px;
+}
+.tattoo-box{
+	width: 300px;
+	height: 300px;
+	background: blue;
+	margin: 10px;
+	float: left;
+	position: relative;
+}
+.tatoo-box img{
+	width: 100%;
+	height: 100%;
+}
+.tattoo-detil{
+	padding: 10px;
+	width:60px;
+	height: 40px;
+	background: #fff;
+	font-family: 'Gotham Rounded Medium';
+	font-size: 12px;
+	line-height: 1.2;
+	position: absolute;
+	top: 220px;
+	left: 10px;
+}
